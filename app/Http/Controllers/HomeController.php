@@ -15,7 +15,7 @@ class HomeController extends Controller
 
    public function redirects() 
    {
-      $usertype= Auth::user()->$usertype;
+      $usertype = Auth::user()-> $usertype;
 
       if($usertype=='1')
       {
